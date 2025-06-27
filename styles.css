@@ -1,0 +1,56 @@
+* {
+    font-size: 30px;
+    background-color: lightgreen;
+    text-align: center;
+    box-shadow: inset;
+}
+.container {
+    display: grid;
+    grid-template-areas: 
+    "logo header header header"
+    "sidebar main main aside"
+    "footer footer footer footer";
+    min-height: 50vh;
+    grid-template-rows: auto;
+}
+
+.logo {
+    max-width: 80%;
+    width: 100%;
+    max-height: 80%;
+    height: 100%;
+    grid-area: logo;
+    border: 1px solid #000000;
+    padding: 5px;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    border: 1px solid #000000;
+    padding: 5px;
+}
+
+.header {
+
+    grid-area: header;
+    border: 1px solid #000000;
+    padding: 5px;
+}
+.servicos {
+    grid-area: main;
+    text-align: center;
+    border: 1px solid #000000;
+    padding: 10px;
+}
+.depoimentos {
+    grid-area: aside;
+    border: 1px solid #000000;
+    padding: 5px;
+    text-align: center;
+}
+.contato {
+    grid-area: footer;
+    border: 1px solid #000000;
+    padding: 5px;
+    text-align: center;
+}
