@@ -53,9 +53,9 @@ li {
 
 }
 .nav__titulo {
-    padding: 1.75vw;
-    margin: 1.75vw;
-    min-height: 10vh;
+    padding: 1px;
+    margin: 1px;
+    min-height: auto;
     justify-content: center;
     font-size: 4vw;
     color:white;
@@ -140,6 +140,7 @@ li {
 .comentario__textos {
     color:black;
 }
+
 .contato {
     padding: 5px;
 
