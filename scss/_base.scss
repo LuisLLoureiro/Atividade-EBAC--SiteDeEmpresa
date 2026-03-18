@@ -1,0 +1,31 @@
+@use 'variaveis' as *;
+
+@font-face{
+font-family: "festiva";
+src: url("../fontes/festa.ttf") format("truetype");
+}
+@font-face{
+font-family: "logo";
+src: url("../fontes/logo.ttf") format("truetype");
+}
+* {
+    font-size: $fonte-geral;
+    margin: $espacamento;
+    text-align: center;
+}
+body {
+    background-color: $cor-fundo;
+}
+h1 {
+    font-family: $fonte-logo;
+    color: $cor-texto;
+}
+h2 {
+    color:$cor-texto;
+}
+p {
+    color:$cor-texto;
+}
+li {
+    color:$cor-texto2;
+}

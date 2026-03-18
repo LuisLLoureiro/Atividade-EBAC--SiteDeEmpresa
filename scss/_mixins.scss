@@ -1,0 +1,16 @@
+
+
+@mixin sombra-padrao($caixa-sombra:0 4px 12px rgb(153, 151, 151), $caixa-raio:10px, $caixa-espacamento:20px, $caixa-preenchimento:20px) {
+    padding: $caixa-preenchimento;
+    border-radius: $caixa-raio;
+    box-shadow: $caixa-sombra;
+    margin-bottom: $caixa-espacamento;
+    
+}
+
+@mixin centralizar($centro:center) {
+    text-align: $centro;
+    align-items: $centro;
+}
+
+
